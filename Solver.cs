@@ -216,7 +216,7 @@ public class Solver
             {
                 edge.Visited = true;
                 var hipotenusa = (currNode.X - goal.X) * (currNode.X - goal.X) + (currNode.Y - goal.Y) * (currNode.Y - goal.Y);
-                var newWeight = dist[currNode] + hipotenusa;
+                var newWeight = dist[currNode] + hipotenusa + 1;
 
                 if (!dist.ContainsKey(edge))
                 {
