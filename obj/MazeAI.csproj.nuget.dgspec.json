@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\disrct\\Desktop\\Desafio 2\\MazeAI.csproj": {}
+    "C:\\Users\\Muril\\OneDrive\\Área de Trabalho\\Method AI\\AI-Methods\\MazeAI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\disrct\\Desktop\\Desafio 2\\MazeAI.csproj": {
+    "C:\\Users\\Muril\\OneDrive\\Área de Trabalho\\Method AI\\AI-Methods\\MazeAI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Desafio 2\\MazeAI.csproj",
+        "projectUniqueName": "C:\\Users\\Muril\\OneDrive\\Área de Trabalho\\Method AI\\AI-Methods\\MazeAI.csproj",
         "projectName": "MazeAI",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\Desafio 2\\MazeAI.csproj",
-        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\Desafio 2\\obj\\",
+        "projectPath": "C:\\Users\\Muril\\OneDrive\\Área de Trabalho\\Method AI\\AI-Methods\\MazeAI.csproj",
+        "packagesPath": "C:\\Users\\Muril\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Muril\\OneDrive\\Área de Trabalho\\Method AI\\AI-Methods\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Muril\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0-windows"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,7 +62,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }

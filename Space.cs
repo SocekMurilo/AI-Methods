@@ -14,21 +14,6 @@ public class Space
     public bool   IsSolution { get; set; } = false;
     public bool   Exit       { get; set; } = false;
 
-    public void Path(Space space)
-    {
-        if (space.Visited == true)
-            
-        return;
-    }
-
-    // public void Maze(Solver solver)
-    // {
-    //     if (solver is not null)
-    //     {
-
-    //     }
-    // }
-
     public void Reset()
     {
         IsSolution = false;
