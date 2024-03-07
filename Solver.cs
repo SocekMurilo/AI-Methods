@@ -215,8 +215,8 @@ public class Solver
             foreach (var edge in edges)
             {
                 edge.Visited = true;
-                var hipotenusa = (currNode.X - goal.X) * (currNode.X - goal.X) + (currNode.Y - goal.Y) * (currNode.Y - goal.Y);
-                var newWeight = dist[currNode] + hipotenusa + 1;
+                var hipotenusa = MathF.Sqrt((currNode.X - goal.X) * (currNode.X - goal.X) + (currNode.Y - goal.Y) * (currNode.Y - goal.Y));
+                var newWeight = dist[currNode] + 1;
 
                 if (!dist.ContainsKey(edge))
                 {
@@ -228,7 +228,7 @@ public class Solver
                 {
                     dist[edge] = newWeight;
                     prev[edge] = currNode;
-                    queue.Enqueue(edge, newWeight);
+                    queue.Enqueue(edge, newWeight + hipotenusa);
                 }
             }
         }
